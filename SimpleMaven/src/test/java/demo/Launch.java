@@ -14,9 +14,12 @@ public class Launch {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 		driver.get("https://demowebshop.tricentis.com/");
+		driver.manage().window().maximize();
 		System.out.println("URL is entered");
 		System.out.println(" =============> Ended <===========");
 		System.out.println("Dead");
+		
 	}
 }
+
 
