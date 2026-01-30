@@ -16,9 +16,7 @@ public class Launch {
 		driver.get("https://demowebshop.tricentis.com/");
 		driver.manage().window().maximize();
 		System.out.println("URL is entered");
-		System.out.println(" =============> Ended <===========");
-		System.out.println("Dead");	
+		System.out.println(" =============> Ended <===========");	
 		driver.quit();
 	}
 }
-
